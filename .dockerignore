@@ -1,0 +1,15 @@
+# exclude underlying OS specific node modules
+.git
+.mvn
+backend
+frontend
+screenshots
+.gitignore
+LICENSE
+README.md
+app.json
+mvnw*
+pom.xml
+renovate.json
+node_modules
+npm-debug.log

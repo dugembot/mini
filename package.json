@@ -1,0 +1,18 @@
+{
+  "name": "docker_heroku_ariang",
+  "version": "1.0.0",
+  "description": "Node.js on Docker",
+  "author": "dugembot <dugembot@idfl.club>",
+  "license": "MIT",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+	  "heroku-ssl-redirect": "^0.1.1",
+	  "express": "^4.17.1",
+	  "http-proxy": "^1.18.1",
+	  "httpsrv": "^0.3.2",
+	  "request": "^2.88.1"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "description": "Configuration for Heroku Review Apps for PullRequests on GitHub",
+  "env": {
+    "SPRING_DATASOURCE_PASSWORD": {
+      "required": true
+    },
+    "SPRING_DATASOURCE_TYPE": {
+      "required": true
+    },
+    "SPRING_DATASOURCE_URL": {
+      "required": true
+    },
+    "SPRING_DATASOURCE_USERNAME": {
+      "required": true
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "name": "spring-boot-vuejs",
+  "stack": "container"
+}
