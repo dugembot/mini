@@ -3,7 +3,7 @@
   "description": "A barebones Node.js app using Express on Heroku",
   "repository": "https://github.com/dugembot/mini",
   "logo": "https://node-js-sample.herokuapp.com/node.png",
-  "keywords": ["node", "express", "docker"]
+  "keywords": ["node", "express", "docker"],
   "env": {
     "SPRING_DATASOURCE_PASSWORD": {
       "required": true
